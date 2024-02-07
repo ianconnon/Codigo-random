@@ -1,0 +1,208 @@
+body{
+     margin: 0;
+     padding-top: 35px;
+     user-select: none;
+     background: #000e;
+}
+.background{
+     width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+}
+.tree {
+    width: 0;
+    height: 0;
+    margin: auto;
+    position: relative;
+}
+.tree-parts{
+    width: 0;
+    height: 0;
+    border-right: 200px solid transparent;
+    border-top: 200px solid transparent;
+    border-left: 200px solid transparent;
+    border-bottom: 200px solid #082;
+    left: -200px;
+    top: 100px;
+    position: absolute;
+    opacity: .8;
+}
+.tree-parts2{
+    width: 0;
+    height: 0;
+    border-right: 180px solid transparent;
+    border-top: 180px solid transparent;
+    border-left: 180px solid transparent;
+    border-bottom: 200px solid #082;
+    left: -180px;
+    top: 60px;
+    position: absolute;
+    opacity: .8;
+}
+.tree-parts3{
+    width: 0;
+    height: 0;
+    border-right: 160px solid transparent;
+    border-top: 160px solid transparent;
+    border-left: 160px solid transparent;
+    border-bottom: 200px solid #082;
+    left: -160px;
+    top: 25px;
+    position: absolute;
+    opacity: .8;
+}
+.tree-parts4{
+    width: 0;
+    height: 0;
+    border-right: 140px solid transparent;
+    border-top: 140px solid transparent;
+    border-left: 140px solid transparent;
+    border-bottom: 200px solid #082;
+    left: -140px;
+    top: 0;
+    position: absolute;
+    opacity: .8;
+}
+.tree-parts5{
+    width: 0;
+    height: 0;
+    border-right: 120px solid transparent;
+    border-top: 120px solid transparent;
+    border-left: 120px solid transparent;
+    border-bottom: 200px solid #082;
+    left: -120px;
+    top: -20px;
+    position: absolute;
+    opacity: .8;
+}
+.tree-parts6{
+    width: 0;
+    height: 0;
+    border-right: 100px solid transparent;
+    border-top: 100px solid transparent;
+    border-left: 100px solid transparent;
+    border-bottom: 200px solid #082;
+    left: -100px;
+    top: -35px;
+    opacity: .8;
+    position: absolute;
+}
+.tree-parts7{
+    width: 0;
+    height: 0;
+    border-right: 80px solid transparent;
+    border-top: 80px solid transparent;
+    border-left: 80px solid transparent;
+    border-bottom: 200px solid #082;
+    left: -80px;
+    top: -50px;
+    position: absolute;
+    opacity: .8;
+}
+.tree-parts8{
+    width: 0;
+    height: 0;
+    border-right: 60px solid transparent;
+    border-top: 60px solid transparent;
+    border-left: 60px solid transparent;
+    border-bottom: 200px solid #082;
+    left: -60px;
+    top: -65px;
+    position: absolute;
+    opacity: .8;
+}
+.tree-parts9{
+    width: 0;
+    height: 0;
+    border-right: 40px solid transparent;
+    border-top: 40px solid transparent;
+    border-left: 40px solid transparent;
+    border-bottom: 200px solid #082;
+    left: -40px;
+    top: -65px;
+    position: absolute;
+    opacity: .8;
+}
+.trunk{
+    width: 0;
+    height: 0;
+    border-right: 40px solid transparent;
+    border-top: 40px solid transparent;
+    border-left: 40px solid transparent;
+    border-bottom: 600px solid #5a3510;
+    left: -40px;
+    top: -65px;
+    position: absolute;
+}
+.wood{
+    position: absolute;
+    width: 70px;
+    height: 100px;
+    top: 500px;
+    left: -35px;
+    background-image: url(wood.png);
+}
+
+.star{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: -45px;
+    left: -74px;
+}
+
+.leds{
+     position: absolute;
+     max-width: 350px;
+}
+.led1{
+     width: 330px;
+     top: 430px;
+     left: -165px;
+}
+.led2{
+     width: 290px;
+     top: 375px;
+     left: -145px;
+}
+.led3{
+     width: 250px;
+     top: 325px;
+     left: -125px;
+}
+.led4{
+     width: 220px;
+     top: 285px;
+     left: -110px;
+}
+.led5 {
+    width: 200px;
+    top: 235px;
+    rotate: -10deg;
+    left: -100px;
+}
+.led6 {
+    width: 165px;
+    top: 190px;
+    left: -90px;
+    rotate: -15deg;
+}
+.led7 {
+    width: 130px;
+    top: 150px;
+    left: -70px;
+    rotate: -15deg;
+}
+.led8 {
+    width: 90px;
+    top: 110px;
+    left: -45px;
+    rotate: -15deg;
+}
+.led9 {
+    width: 70px;
+    top: 80px;
+    left: -35px;
+    rotate: -15deg;
+}
